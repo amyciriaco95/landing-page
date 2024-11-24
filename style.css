@@ -1,0 +1,23 @@
+body {
+  font-family: Roboto, serif;
+  display: flex;
+}
+.hero {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+
+}
+
+.hero, .footer {
+  background-color: #1F2937;
+}
+
+button {
+  background-color: #3882F6;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+}

@@ -1,18 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   font-family: 'Roboto', serif;
+  margin: 0;
 }
 
 .hero, .footer {
   background-color: #1F2937;
 }
 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 300px;
+  border-radius: 11px;
+  border-color: #3882F6;
+  height: auto;
+  display: flex;
+  
+}
+
 .main-text {
   font-size: 48px;
   color: #E5E7EB;
-  weight: 900;
+  font-weight: 900;
 }
 
-.secondary-text, .links {
+.secondary-text {
   font-size: 18px;
   color: #E5E7EB;
 }
@@ -24,10 +42,19 @@ body {
 
 button, .call-to-action {
   background-color: #3882F6;
+  border: 1px;
+  border-radius: 10px;
 }
 
 a {
   text-decoration: none;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
 }
 
 .info {
@@ -43,5 +70,18 @@ a {
 .quote {
   font-size: 36px;
   color: #1F2937;
+  font-style: italic;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #F9FAF8;
+  padding: 10px;
+}
+
+.images-with-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -8,16 +8,40 @@ body {
 
 .main-text {
   font-size: 48px;
-  color: #F9FAF8;
-  font-weight: 900;
+  color: #E5E7EB;
+  weight: 900;
 }
 
-.secondary-text {
+.secondary-text, .links {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-button {
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+button, .call-to-action {
   background-color: #3882F6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.quote-container {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
 }
 

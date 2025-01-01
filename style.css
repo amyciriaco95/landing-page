@@ -66,3 +66,12 @@ button, .call-to-action {
   font-style: italic;
   color: #1F2937;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.second-container {
+  display: flex;
+}

@@ -65,6 +65,7 @@ button, .call-to-action {
   font-size: 36px;
   font-style: italic;
   color: #1F2937;
+  padding: 10px;
 }
 
 img {
@@ -74,4 +75,13 @@ img {
 
 .second-container {
   display: flex;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
 }
